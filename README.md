@@ -14,7 +14,7 @@ A native visionOS app that puts you inside the Whisper experience. You choose a 
 2. Select your Apple Vision Pro (or visionOS Simulator)
 3. Build & Run (⌘R)
 4. Choose **Developer** or **UX Designer**
-5. Act it out — look around, interact with the windows
+5. Act it out: look around, interact with the windows
  
 ## What Happens (Developer)
  
@@ -77,8 +77,8 @@ Two use cases available: **Crowded Payment Screen** and **Dashboard Filters + Di
  
 ```
 Whisper/
-├── WhisperApp.swift           # App entry — declares all windows
-├── ScenarioEngine.swift       # The brain — drives the entire role-play timeline
+├── WhisperApp.swift           # App entry: declares all windows
+├── ScenarioEngine.swift       # The brain: drives the entire role-play timeline
 ├── MainView.swift             # Role select → narrator/controller during play
 ├── CodeEditorWindow.swift     # IDE with syntax highlighting + whisper glow bars
 └── SpatialWindows.swift       # Whisper Panel, Debug Constellation, Design Studio,
@@ -89,9 +89,9 @@ Whisper/
  
 ## Spatial Zones
  
-- **Zone A (Center)**: CodeForge IDE or Design Studio canvas — where you work
+- **Zone A (Center)**: CodeForge IDE or Design Studio canvas: where you work
 - **Zone B (Peripheral)**: Whisper panel — 20° to your right, updates passively
-- **Zone C (Deep context)**: Debug Constellation, Architecture Explorer — summoned on demand
+- **Zone C (Deep context)**: Debug Constellation, Architecture Explorer -> summoned on demand
 - **Digital Twin**: Appears as a separate spatial panel with holographic conversation interface
  
 ## Requirements

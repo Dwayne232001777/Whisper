@@ -1,10 +1,10 @@
-# Whisper — Spatial Role-Play for Apple Vision Pro
+# Whisper — A peripheral collaborative tool for Apple Vision Pro
 
-> You are a developer in 2077. Put on Vision Pro and act out the scenario.
+> You are a developer in 2077. Put on Vision Pro and work in this scenario.
 
 ## What This Is
 
-A native visionOS app that puts you inside the Whisper experience. You choose a role (Developer or UX Designer), and the scenario plays out around you spatially — windows open, panels float to your sides, whisper cards appear, and a narrator guides you through each beat.
+A native visionOS app walkthrough that puts you inside the Whisper experience. You choose a role (Developer or UX Designer), and the scenario plays out around you spatially: windows open, panels float to your sides, whisper cards appear, and a narrator guides you through each beat.
 
 **This is not a demo you watch. You are the character.**
 
@@ -42,8 +42,8 @@ A native visionOS app that puts you inside the Whisper experience. You choose a 
 
 ```
 WhisperOS/
-├── WhisperApp.swift          # App entry — declares all windows + spaces
-├── ScenarioEngine.swift       # The brain — drives the entire role-play timeline
+├── WhisperApp.swift          # App entry: declares all windows + spaces
+├── ScenarioEngine.swift       # The brain: drives the entire role-play timeline
 ├── MainView.swift             # Role select → narrator/controller during play
 ├── CodeEditorWindow.swift     # IDE with syntax highlighting + whisper glow bars
 └── SpatialWindows.swift       # Terminal, Whisper Panel, Whisper, Debug, Design, Journey
